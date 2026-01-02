@@ -230,7 +230,11 @@
             try {
                 const res = await fetch('/chat_list');
                 const chats = await res.json();
+<<<<<<< HEAD
                 allChats = chats; 
+=======
+                allChats = chats; // بروزرسانی از سرور
+>>>>>>> 13b43eb6dae2a4be0b453b988ff7fc0b0da581b1
                 localStorage.setItem('all_chats', JSON.stringify(allChats));
                 chatList.innerHTML = '';
                 chats.forEach(chat => {

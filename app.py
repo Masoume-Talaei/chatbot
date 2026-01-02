@@ -180,4 +180,8 @@ def chat():
         return jsonify({"reply": "یه مشکلی پیش اومد، چند لحظه دیگه امتحان کن 😅"})
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     app.run(debug=True)
+=======
+    app.run(debug=True)
+>>>>>>> 13b43eb6dae2a4be0b453b988ff7fc0b0da581b1
