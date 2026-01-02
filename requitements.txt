@@ -1,8 +1,4 @@
 flask
 openai
 python-dotenv
-<<<<<<< HEAD
 pip install flask-sqlalchemy
-=======
-pip install flask-sqlalchemy
->>>>>>> 13b43eb6dae2a4be0b453b988ff7fc0b0da581b1
